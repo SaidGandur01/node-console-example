@@ -1,0 +1,17 @@
+{
+  "name": "03-bases-node",
+  "version": "0.0.1",
+  "description": "Simple tabla de multiplicar con archivo de texto",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3"
+  },
+  "author": "Said Gandur",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.0.0",
+    "yargs": "^17.4.1"
+  }
+}
